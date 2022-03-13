@@ -1,0 +1,225 @@
+.header{
+    background-color: rgb(233, 220, 197);
+       color:white;
+       /* position: fixed; */
+       width: 100%;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+     z-index: 15;
+       
+   }
+   .basket{
+        position: fixed;
+        width: 45px;
+        height: 45px;
+        top: 20%;
+        right: 5%;
+   }
+
+   .badge{
+       position: relative;
+       top: 0;
+   }
+   
+   
+   .basket svg {
+       color: black !important;
+   }
+   .basket svg :hover{
+       color: #b6580b;
+   }
+   
+   .menu__nav{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       }
+   .nav__icon{
+       width: 10%;
+       align-items: center;
+       display: flex;
+       justify-content: space-around;
+   }
+   .nav__icon img{
+    width:100%;
+   }
+   
+   
+   .menu__nav ul{
+       /* width: 50%; */
+       display: flex;
+       align-items: center;
+       gap: 30px;
+       list-style: none;
+       font-size: 25px;
+   }
+   .menu__nav ul li a{
+       cursor: pointer;
+       transition: color 250ms ease-in-out;
+       text-decoration: none;
+       color: rgba(14, 13, 15, 0.849);
+   }
+  
+ 
+   .menu__nav ul li a:hover{
+       color: #d0a88b
+   }
+   /* .selected{
+       color: rgb(182 88 11)!important;
+   } */
+   .active{
+        color: rgb(182 88 11)!important;
+   }
+   .none{
+       display: none;
+   }
+   .flex{
+       display: flex;
+   }
+   .logout{
+       border: 1px solid black;
+       border-radius: 100px;
+       padding: 0px 10px;
+    }
+   
+    .avatar{
+        padding: 5px;
+        border: 1px solid black ;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 25px;
+    }
+   
+   .button {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+       text-transform:uppercase;
+       font-size:14px;
+       color:#fff;
+       text-decoration:none;
+       font-weight:bold;
+       text-transform:uppercase;
+       text-shadow:rgba(0, 0, 0, 0.30) 0 -1.25px 0;
+      display:inline-block;
+      vertical-align:middle;
+      vertical-align:auto;
+      /* zoom:1; */
+       margin-top: 10px;
+       margin-bottom: 10px;
+      border:1px solid #b6580b;
+      background: #d0a88b;
+      padding:11px 20px;
+      -webkit-box-shadow:rgba(255, 255, 255, 0.3) 0 1px 0, inset rgba(255, 255, 255, 0.3) 0 1px 0;
+      -moz-box-shadow:rgba(255, 255, 255, 0.3) 0 1px 0, inset rgba(255, 255, 255, 0.3) 0 1px 0;
+      box-shadow:rgba(255, 255, 255, 0.3) 0 1px 0, inset rgba(255, 255, 255, 0.3) 0 1px 0;
+     }
+     
+    
+     .button:active {
+      border-color:#083559;
+      -webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+      -moz-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+      box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.25) 0 1px 4px;}
+   
+   
+   
+   
+   
+   
+   .mobile-btn{
+       width: 55px;
+       height: 30px;
+       display: none;
+       justify-content: center;
+       align-items: center;
+     }
+     
+     .mobile-btn span{
+       width:50%;
+       height: 3px;
+       background:#FF1493 ;
+       display: inline-block;
+       position: relative;
+     }
+     
+     .mobile-btn span:before,
+     .mobile-btn span:after {
+       content: "";
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background: #FF1493;
+       transition: .5s;
+     }
+     .mobile-btn span:before{
+       top:-13px;
+     }
+     
+     .mobile-btn span:after{
+       top:13px;
+     }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* @media (max-width: 990px) {
+       .mobile-btn {
+           display: flex;
+            z-index: 12; 
+           
+       }
+       .show-mobile-btn span{
+           background: transparent;   /*hides middle line
+   
+       }
+       .show-mobile-btn span:before,
+       .show-mobile-btn span:after{
+           top:0;
+           bottom: 0;
+           margin: auto;
+   
+       }
+       .show-mobile-btn span:before{
+           transform: rotate(45deg);
+       }
+       .show-mobile-btn span:after{
+           transform: rotate(-45deg);
+       }
+       .nav{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           position: fixed;
+           background: #0F2027;
+           background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 
+           background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+           height: 100%;
+           width: 100%;
+           top:0;
+           right: -100%;
+           z-index: 11;
+           transition: .5s;
+       }
+       .show-nav{
+           right: 0;
+       }
+       
+   } */
+
+
+
+
+

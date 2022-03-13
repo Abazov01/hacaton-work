@@ -1,0 +1,78 @@
+.registr{
+    padding: 120px 0 0 0;
+}
+.registr{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 35vh 0 0 0;
+}
+
+.forom input{
+    width: 70%;
+    text-align: center;
+    margin: 0 15%;
+    height: 50px;
+    font-size: 27px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    /* overflow: hidden; */
+}
+
+.forom input:focus{
+    width: 90%;
+    margin: 0 5%;
+    height: 50px;
+    font-size: 27px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    /* overflow: hidden; */
+}
+
+
+.registr__btns{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+a{
+    text-decoration: none;
+}
+.registr__btns button:first-child{   
+    border-radius: 100px 0;
+    width: 36%;
+    font-size: 25px;
+    height: 40px;
+
+}
+
+.registr__btns button:last-child{   
+    border-radius: 0 100px;
+    width: 36%;
+    font-size: 25px;
+    height: 40px;
+
+}
+
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+}
+
+.vid{
+    width: 100vw;
+    height: 100vh;
+}

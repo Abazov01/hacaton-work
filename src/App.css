@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333%;
+
+}
+.col-6{
+    width: 50%;
+
+}
+
+.col-12{
+    width: 100%;
+} */
+
+.img{
+    padding: 120px 0 0 0;
+}
