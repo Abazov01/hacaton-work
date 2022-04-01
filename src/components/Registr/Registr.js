@@ -70,7 +70,7 @@ export default function Registr({setType}) {
         <input value={pass} onChange={(e)=>setPas(e.target.value)} placeholder="password" type="text" />
         <div className="registr__btns">
           <button>
-            <NavLink to={"/login"}>Login</NavLink>
+            <NavLink to={"/hacaton-work/login"}>Login</NavLink>
           </button>
           <button>
             SignUp

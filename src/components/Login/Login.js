@@ -80,7 +80,7 @@ useEffect(()=>{
         <input value={pass} onChange={(e) =>setPass(e.target.value)} placeholder="password" type="text" />
         <div className="btns ">
           <button>
-            <NavLink to={"/registr"}>SignUp</NavLink>
+            <NavLink to={"/hacaton-work/registr"}>SignUp</NavLink>
           </button>
         <button >Login</button>
       </div>
