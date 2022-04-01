@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hacaton-work/static/css/main.77a1bae1.css",
-    "main.js": "/hacaton-work/static/js/main.08959d41.js",
+    "main.js": "/hacaton-work/static/js/main.713f7bff.js",
     "static/media/Background - 6266.mp4": "/hacaton-work/static/media/Background - 6266.4358b1c7b588c77394f3.mp4",
     "index.html": "/hacaton-work/index.html",
     "main.77a1bae1.css.map": "/hacaton-work/static/css/main.77a1bae1.css.map",
-    "main.08959d41.js.map": "/hacaton-work/static/js/main.08959d41.js.map"
+    "main.713f7bff.js.map": "/hacaton-work/static/js/main.713f7bff.js.map"
   },
   "entrypoints": [
     "static/css/main.77a1bae1.css",
-    "static/js/main.08959d41.js"
+    "static/js/main.713f7bff.js"
   ]
 }
