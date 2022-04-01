@@ -72,7 +72,7 @@ export default function Header({setShow, countCartItems}) {
 
                             <ul className={`nav ${burger ? 'show-nav' : ''}`}>
                                 <li onClick={toggleBurger}>
-                                    <NavLink to={'/hacaton-work/homepage'}>Блюда</NavLink>
+                                    <NavLink to={'/hacaton-work'}>Блюда</NavLink>
                                 </li >
 
                                 <li onClick={toggleBurger}>

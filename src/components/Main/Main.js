@@ -21,7 +21,7 @@ export default function Main({ setType }) {
           <UserContext.Provider value={{ info, setInfo }}>
             <Routes>
               <Route
-                path="hacaton-work/homepage"
+                path="/hacaton-work"
                 element={<HomePage setType={setType} />}
               />
               <Route path="hacaton-work/drinks" element={<DrinksPage />} />
